@@ -13,7 +13,7 @@ namespace Snbt.Helper
 
             var snbtToJsonCommand = new Command("snbt2json", "Convert SNBT files to JSON");
 
-            var jsonToSnbtCommand = new Command("json2snbt", "Convert JSON files to SNBT");
+            //var jsonToSnbtCommand = new Command("json2snbt", "Convert JSON files to SNBT");
 
             var inputDirectoryArgument = new Argument<string>("input-dir", "The directory containing SNBT files.")
             {
@@ -27,7 +27,7 @@ namespace Snbt.Helper
 
             
             ConvertSnbtToJsonCommand(rootCommand, snbtToJsonCommand, inputDirectoryArgument, outputDirectoryArgument);
-            ConvertJsonToSnbtCommand(rootCommand, jsonToSnbtCommand, inputDirectoryArgument, outputDirectoryArgument);
+            //ConvertJsonToSnbtCommand(rootCommand, jsonToSnbtCommand, inputDirectoryArgument, outputDirectoryArgument);
 
             rootCommand.InvokeAsync(args).Wait();
         }
@@ -48,6 +48,8 @@ namespace Snbt.Helper
             rootCommand.AddCommand(snbtToJsonCommand);
         }
 
+        // COMING SOON
+        /*
         private static void ConvertJsonToSnbtCommand(RootCommand rootCommand, Command jsonToSnbtCommand, Argument<string> inputDirectoryArgument, Argument<string> outputDirectoryArgument)
         {
             jsonToSnbtCommand.AddArgument(inputDirectoryArgument);
@@ -63,5 +65,6 @@ namespace Snbt.Helper
 
             rootCommand.AddCommand(jsonToSnbtCommand);
         }
+        */
     }
 }
