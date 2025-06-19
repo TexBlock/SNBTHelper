@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snbt.Helper", "SNBTHelper\Snbt.Helper.csproj", "{ED3975FB-CC8F-428E-9300-46A2CE40901D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC08419F-A867-4ADD-B8A2-023E6072A2C1} = {EC08419F-A867-4ADD-B8A2-023E6072A2C1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snbt.Library", "SNBTLibrary\Snbt.Library.csproj", "{EC08419F-A867-4ADD-B8A2-023E6072A2C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED3975FB-CC8F-428E-9300-46A2CE40901D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3975FB-CC8F-428E-9300-46A2CE40901D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3975FB-CC8F-428E-9300-46A2CE40901D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3975FB-CC8F-428E-9300-46A2CE40901D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC08419F-A867-4ADD-B8A2-023E6072A2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC08419F-A867-4ADD-B8A2-023E6072A2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC08419F-A867-4ADD-B8A2-023E6072A2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC08419F-A867-4ADD-B8A2-023E6072A2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8D54866-B06D-4982-89E2-75781B34811E}
+	EndGlobalSection
+EndGlobal
